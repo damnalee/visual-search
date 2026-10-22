@@ -23,8 +23,8 @@ flowchart LR
     D --> B
     B -->|ranked results + image URLs| A
 ```
+![Workflow](docs/workflow.gif)
 
-[Open the interactive workflow diagram](https://damnalee.github.io/visual-search/workflow.html)
 
 Offline, `scripts/ingest.py` embeds catalog images with CLIP and stores them in ChromaDB. Online, the API embeds the query, runs nearest-neighbor search, filters by score, and returns JSON.
 
