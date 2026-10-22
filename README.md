@@ -29,6 +29,7 @@ Multimodal product search. Find fashion products by describing them or by upload
     </td>
   </tr>
 </table>
+
 ## Architecture
 
 ![Workflow](docs/workflow.gif)
