@@ -15,11 +15,20 @@ Multimodal product search. Find fashion products by describing them or by upload
 - Flutter client with Provider state management, skeleton loading, animated results, detail sheet, toast notifications ([Sileo](https://pub.dev/packages/sileo)), and light and dark themes
 
 ## Screenshots
+## Screenshots
 
-| Home | Search: "red black shoe" | Search: vest |
-|---|---|---|
-| ![Home](docs/home.png) | ![Shoe search](docs/search-shoes.png) | ![Vest search](docs/search-vest.png) |
-
+<table>
+  <tr>
+    <td width="50%">
+      <img src="docs/search-shoes.png" alt="Search: red black shoe" width="100%">
+      <br><sub>Search: "red black shoe"</sub>
+    </td>
+    <td width="50%">
+      <img src="docs/search-vest.png" alt="Search: vest" width="100%">
+      <br><sub>Search: vest</sub>
+    </td>
+  </tr>
+</table>
 ## Architecture
 
 ![Workflow](docs/workflow.gif)
