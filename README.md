@@ -146,3 +146,7 @@ Responses include `threshold_used`, `count`, and `results` (id, name, article, c
 ## Acknowledgments
 
 Dataset: Fashion Product Images (Small) by Param Aggarwal on Kaggle. Model: OpenAI CLIP.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
