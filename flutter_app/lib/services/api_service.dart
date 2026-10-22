@@ -37,6 +37,22 @@ class ApiService {
     }
   }
 
+  Future<Uint8List> downloadBytes(String url) async {
+    try {
+      final response = await http.get(Uri.parse(url)).timeout(timeout);
+      if (response.statusCode != 200) {
+        throw ApiException('Could not load that image');
+      }
+      return response.bodyBytes;
+    } on ApiException {
+      rethrow;
+    } on TimeoutException {
+      throw ApiException('Request timed out. Is the server running?');
+    } catch (_) {
+      throw ApiException('Cannot reach server at $kBaseUrl');
+    }
+  }
+
   Future<SearchResponse> searchText(
     String query, {
     int topK = 12,
