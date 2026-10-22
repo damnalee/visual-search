@@ -14,7 +14,7 @@ Multimodal product search. Find fashion products by describing them or by upload
 - Request timeout (504), upload size limit (413), input validation (400)
 - Flutter client with Provider state management, skeleton loading, animated results, detail sheet, toast notifications ([Sileo](https://pub.dev/packages/sileo)), and light and dark themes
 
-## Screenshots
+
 ## Screenshots
 
 <table>
